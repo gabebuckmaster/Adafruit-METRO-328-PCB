@@ -3715,9 +3715,10 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <smd name="18" x="0" y="1.8" dx="0.4" dy="0.25" layer="1" roundness="10" rot="R90"/>
 <smd name="19" x="-0.5" y="1.8" dx="0.4" dy="0.25" layer="1" roundness="10" rot="R90"/>
 <smd name="20" x="-1" y="1.8" dx="0.4" dy="0.25" layer="1" roundness="10" rot="R90"/>
-<smd name="21" x="0" y="0" dx="2" dy="2" layer="1" roundness="10" rot="R90"/>
+<smd name="21" x="0" y="0" dx="2" dy="2" layer="1" roundness="10" rot="R90" cream="no"/>
 <text x="-1.8" y="2.7" size="1.016" layer="25" font="vector">&gt;Name</text>
 <text x="1.4" y="-3" size="0.6096" layer="27" font="vector">&gt;Value</text>
+<rectangle x1="-0.8" y1="-0.8" x2="0.8" y2="0.8" layer="31"/>
 </package>
 <package name="KMR2">
 <wire x1="-2.1" y1="1.4" x2="2.1" y2="1.4" width="0.127" layer="21"/>
@@ -3794,9 +3795,10 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <smd name="30" x="-0.75" y="2.5" dx="0.8" dy="0.3" layer="1" roundness="100" rot="R270"/>
 <smd name="31" x="-1.25" y="2.5" dx="0.8" dy="0.3" layer="1" roundness="100" rot="R270"/>
 <smd name="32" x="-1.75" y="2.5" dx="0.8" dy="0.3" layer="1" roundness="100" rot="R270"/>
-<smd name="33" x="0" y="0" dx="3.75" dy="3.75" layer="1"/>
+<smd name="33" x="0" y="0" dx="3.1" dy="3.1" layer="1" cream="no"/>
 <text x="-2.75" y="-4.75" size="1.27" layer="25">&gt;Name</text>
 <text x="-2.5" y="3.5" size="1.27" layer="27">&gt;Value</text>
+<rectangle x1="-1.25" y1="-1.25" x2="1.25" y2="1.25" layer="31"/>
 </package>
 <package name="CSTCE">
 <description>&lt;b&gt;3-pin SMT ceramic package&lt;/b&gt;
