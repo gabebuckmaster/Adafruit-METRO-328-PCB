@@ -38,7 +38,7 @@
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -1333,6 +1333,11 @@
 <wire x1="10.6" y1="19.6" x2="11" y2="19.6" width="0.12" layer="25"/>
 <wire x1="11" y1="19.6" x2="10.8" y2="19.3" width="0.12" layer="25"/>
 <wire x1="10.6" y1="19.2" x2="11" y2="19.2" width="0.12" layer="25"/>
+<wire x1="5.5" y1="34.1" x2="6" y2="34.1" width="0.12" layer="25"/>
+<wire x1="6" y1="34.1" x2="6.5" y2="34.1" width="0.12" layer="25"/>
+<wire x1="6" y1="34.1" x2="5.4" y2="34.7" width="0.12" layer="25"/>
+<wire x1="5.4" y1="34.7" x2="6.5" y2="34.7" width="0.12" layer="25"/>
+<wire x1="6.5" y1="34.7" x2="6" y2="34.2" width="0.12" layer="25"/>
 </plain>
 <libraries>
 <library name="Stanford Metro Mini">
@@ -2083,7 +2088,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="9.39" y="44.886" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D1" library="Stanford Metro Mini" package="SOD123" value="SCHOTTKY" x="4.9" y="34.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="5.395" y="33.545" size="1" layer="25" ratio="12" rot="R90"/>
+<attribute name="NAME" x="5.295" y="33.745" size="1" layer="25" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="7.375" y="31.895" size="1.27" layer="27" rot="R90"/>
 </element>
 </elements>
